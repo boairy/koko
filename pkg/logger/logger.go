@@ -8,8 +8,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/jumpserver/koko/pkg/common"
-	"github.com/jumpserver/koko/pkg/config"
+	"github.com/boairy/koko/pkg/common"
+	"github.com/boairy/koko/pkg/config"
 )
 
 var logger = logrus.New()

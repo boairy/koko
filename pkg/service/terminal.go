@@ -3,8 +3,8 @@ package service
 import (
 	"fmt"
 
-	"github.com/jumpserver/koko/pkg/logger"
-	"github.com/jumpserver/koko/pkg/model"
+	"github.com/boairy/koko/pkg/logger"
+	"github.com/boairy/koko/pkg/model"
 )
 
 func RegisterTerminal(name, token, comment string) (res model.Terminal) {

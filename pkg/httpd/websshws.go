@@ -14,10 +14,10 @@ import (
 	"github.com/kataras/neffos"
 	"github.com/satori/go.uuid"
 
-	"github.com/jumpserver/koko/pkg/logger"
-	"github.com/jumpserver/koko/pkg/model"
-	"github.com/jumpserver/koko/pkg/proxy"
-	"github.com/jumpserver/koko/pkg/service"
+	"github.com/boairy/koko/pkg/logger"
+	"github.com/boairy/koko/pkg/model"
+	"github.com/boairy/koko/pkg/proxy"
+	"github.com/boairy/koko/pkg/service"
 )
 
 func OnPingHandler(c *neffos.NSConn, msg neffos.Message) error {

@@ -13,14 +13,14 @@ import (
 	"github.com/gliderlabs/ssh"
 	"github.com/xlab/treeprint"
 
-	"github.com/jumpserver/koko/pkg/cctx"
-	"github.com/jumpserver/koko/pkg/common"
-	"github.com/jumpserver/koko/pkg/config"
-	"github.com/jumpserver/koko/pkg/logger"
-	"github.com/jumpserver/koko/pkg/model"
-	"github.com/jumpserver/koko/pkg/proxy"
-	"github.com/jumpserver/koko/pkg/service"
-	"github.com/jumpserver/koko/pkg/utils"
+	"github.com/boairy/koko/pkg/cctx"
+	"github.com/boairy/koko/pkg/common"
+	"github.com/boairy/koko/pkg/config"
+	"github.com/boairy/koko/pkg/logger"
+	"github.com/boairy/koko/pkg/model"
+	"github.com/boairy/koko/pkg/proxy"
+	"github.com/boairy/koko/pkg/service"
+	"github.com/boairy/koko/pkg/utils"
 )
 
 func checkIP(remote_addr string, curr_user string) bool {

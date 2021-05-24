@@ -6,11 +6,11 @@ import (
 	"github.com/gliderlabs/ssh"
 	"github.com/pires/go-proxyproto"
 
-	"github.com/jumpserver/koko/pkg/auth"
-	"github.com/jumpserver/koko/pkg/config"
-	//"github.com/jumpserver/koko/pkg/handler"
+	"github.com/boairy/koko/pkg/auth"
+	"github.com/boairy/koko/pkg/config"
+	//"github.com/boairy/koko/pkg/handler"
 	"/opt/aa/koko-1.5.4/pkg/handler"
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/boairy/koko/pkg/logger"
 )
 
 var sshServer *ssh.Server

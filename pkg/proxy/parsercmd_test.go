@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jumpserver/koko/pkg/utils"
+	"github.com/boairy/koko/pkg/utils"
 )
 
 func TestCmdParser_Parse(t *testing.T) {

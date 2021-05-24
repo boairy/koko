@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/gliderlabs/ssh"
-	"github.com/jumpserver/koko/pkg/logger"
+	"github.com/boairy/koko/pkg/logger"
 	uuid "github.com/satori/go.uuid"
 )
 

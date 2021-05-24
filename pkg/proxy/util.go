@@ -3,9 +3,9 @@ package proxy
 import (
 	"strings"
 
-	"github.com/jumpserver/koko/pkg/config"
-	"github.com/jumpserver/koko/pkg/model"
-	storage "github.com/jumpserver/koko/pkg/proxy/recorderstorage"
+	"github.com/boairy/koko/pkg/config"
+	"github.com/boairy/koko/pkg/model"
+	storage "github.com/boairy/koko/pkg/proxy/recorderstorage"
 )
 
 type ReplayStorage interface {

@@ -7,10 +7,10 @@ import (
 	"sync"
 	"text/template"
 
-	"github.com/jumpserver/koko/pkg/config"
-	"github.com/jumpserver/koko/pkg/i18n"
-	"github.com/jumpserver/koko/pkg/logger"
-	"github.com/jumpserver/koko/pkg/utils"
+	"github.com/boairy/koko/pkg/config"
+	"github.com/boairy/koko/pkg/i18n"
+	"github.com/boairy/koko/pkg/logger"
+	"github.com/boairy/koko/pkg/utils"
 )
 
 var defaultTitle string

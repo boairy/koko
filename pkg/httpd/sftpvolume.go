@@ -12,10 +12,10 @@ import (
 	"github.com/LeeEirc/elfinder"
 	"github.com/pkg/sftp"
 
-	"github.com/jumpserver/koko/pkg/logger"
-	"github.com/jumpserver/koko/pkg/model"
-	"github.com/jumpserver/koko/pkg/service"
-	"github.com/jumpserver/koko/pkg/srvconn"
+	"github.com/boairy/koko/pkg/logger"
+	"github.com/boairy/koko/pkg/model"
+	"github.com/boairy/koko/pkg/service"
+	"github.com/boairy/koko/pkg/srvconn"
 )
 
 func NewUserVolume(user *model.User, addr, hostId string) *UserVolume {

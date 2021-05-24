@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jumpserver/koko/pkg/common"
-	"github.com/jumpserver/koko/pkg/config"
-	"github.com/jumpserver/koko/pkg/model"
-	"github.com/jumpserver/koko/pkg/service"
-	"github.com/jumpserver/koko/pkg/utils"
+	"github.com/boairy/koko/pkg/common"
+	"github.com/boairy/koko/pkg/config"
+	"github.com/boairy/koko/pkg/model"
+	"github.com/boairy/koko/pkg/service"
+	"github.com/boairy/koko/pkg/utils"
 )
 
 func NewAssetPagination(term *utils.Terminal, assets []model.Asset) AssetPagination {
